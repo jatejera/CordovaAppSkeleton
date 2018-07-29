@@ -1,0 +1,63 @@
+// @import url("https://cdn.jsdelivr.net/npm/animate.css@3.5.1");
+
+$background: gray;
+
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+//
+//.slide-left-enter-active,
+//.slide-left-leave-active,
+//.slide-right-enter-active,
+//.slide-right-leave-active {
+//  transition-duration: 0.5s;
+//  transition-property: height, opacity, transform;
+//  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+//  overflow: hidden;
+//}
+//
+//.slide-left-leave-active{
+//    transition-duration: 0s;
+//  transition-property: height, opacity, transform;
+//  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+//  overflow: hidden;
+//}
+//
+//.slide-left-enter,
+//.slide-right-leave-active {
+//  opacity: 0;
+//  transform: translate(2em, 0);
+//}
+//
+//.slide-left-leave-active,
+//.slide-right-enter {
+//  opacity: 0;
+//  transform: translate(-2em, 0);
+//}
+//
+//.fade-enter-active, .fade-leave-active {
+//  transition-property: opacity;
+//  transition-duration: .25s;
+//}
+//
+//.fade-enter-active {
+//  transition-delay: .25s;
+//}
+//
+//.fade-enter, .fade-leave-active {
+//  opacity: 0
+//}
