@@ -1,5 +1,6 @@
 window.app = {};
 
+
 ons.ready(function() {
     document.addEventListener('init', function(event) {
         var page = event.target; // target of the init event is a page

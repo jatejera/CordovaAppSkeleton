@@ -12,9 +12,9 @@ app.controllers = {
             };
         }
 
-        bindPage('menu-main', 'html/main.html');
-        bindPage('menu-secondPage', 'html/secondPage.html');
-        bindPage('menu-thirdPage', 'html/thirdPage.html');
+        bindPage('menu-main', 'mainPage.html');
+        bindPage('menu-secondPage', 'secondPage.html');
+        bindPage('menu-thirdPage', 'thirdPage.html');
     },
 
     "mainPage": function (page) {
