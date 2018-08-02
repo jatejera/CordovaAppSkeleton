@@ -2,7 +2,7 @@ app.views = {
     
     "menuPage": function (page) {
 
-
+        alert('this is the menu page')
 
     },
 
@@ -23,7 +23,7 @@ app.views = {
     },
 
     "thirdPage": function (page) {
-
+        
     }
 
 };

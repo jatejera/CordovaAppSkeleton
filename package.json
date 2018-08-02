@@ -5,12 +5,13 @@
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.html",
     "scripts": {
-        "dev:onsen": "parcel onsenui-src/index.html",
+        "dev:onsen": "parcel --no-cache onsenui-src/index.html",
         "build:onsen": "parcel build onsenui-src/index.html --public-url ./ --out-dir www",
-        
         "dev:vue": "parcel vue-src/index.html",
         "build:vue": "parcel build vue-src/index.html --public-url ./ --out-dir www",
-        "ios": "parcel build index.html --public-url ./ --out-dir www && cordova build ios"
+        "build:onsen-ios": "rm -rf www && parcel build onsenui-src/index.html --public-url ./ --out-dir www && cordova build ios",
+        "build:ios": "cordova build ios",
+        "build:android": "cordova build android"
     },
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",

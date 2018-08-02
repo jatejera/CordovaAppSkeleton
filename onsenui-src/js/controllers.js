@@ -25,6 +25,7 @@ app.controllers = {
         var helloButton = page.querySelector('#sayHello');
         helloButton.addEventListener("click", function () {
             alert("Hello World");
+            
         })
     },
 
@@ -41,6 +42,9 @@ app.controllers = {
         page.querySelector('#btn-splitter-toggle').onclick = function () {
             document.querySelector('#app-splitter').left.toggle();
         };
+         app.models.fetchUserData();
+      
+//        app.views.thirdPage(page);
 
     }
 
